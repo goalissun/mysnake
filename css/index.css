@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors zzp
+ * @date    2019-04-22 08:54:07
+ * @version $Id$
+ */
+*{margin: 0px;padding: 0px;}
+    a{text-decoration: none;}
+    ul,li{list-style: none;}
+    body{font-size: 14px;font-family: "楷体";}
+    #box{width: 680px;height: 500px;border:1px solid white;margin: 0px auto;}
+    h2{color:black;text-align: center;text-shadow: 2px 2px 5px #000;}
+    #canvas{
+        background: green;
+        display: block;
+        margin: 0px auto;
+    }
+    #score{
+        width: 80px;
+        height: 30px;
+        background: red;
+        text-align: center;
+        line-height: 30px;
+        position: fixed;
+        top: 20px;
+        left: 100px;
+    }
